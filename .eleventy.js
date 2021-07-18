@@ -17,6 +17,12 @@ module.exports = config => {
         );
     });
 
+    // Returns a collection of blog posts in reverse date order
+    config.addCollection('blog', collection => {
+        return [...collection.getFilteredByGlob('./src/posts/*.md')].reverse();
+    });
+
+
     return {
         // process markdown-, data- and html-files with nunjucksmkdir -p src/_includes/layouts
         markdownTemplateEngine: 'njk',
