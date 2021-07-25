@@ -1,6 +1,6 @@
 ---
 title: 'A Complete Guide to Wireframe Design'
-date: 'Last Modified'
+date: '2020-04-13'
 tags: ['Tutorial', 'Learning']
 ---
 
